@@ -1,3 +1,5 @@
+//这个也啥都没纪录  下次做再看看
+// 52ms  34.31%
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -7,7 +9,6 @@
  * };
  */
  
-// 52ms  34.31%
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

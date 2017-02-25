@@ -1,4 +1,5 @@
-//hash 12ms
+//忘记纪录了   啥都没有  下次做再看看吧
+//hash 12ms   58.80%
 
 class Use_for_quicksort{
 	public:
@@ -45,7 +46,7 @@ public:
 };
 
 /*
-//quicksort+binary_search
+//quicksort+binary_search  56ms     40.16%
 
 class Use_for_quicksort{
 	public:
@@ -139,3 +140,4 @@ public:
         }
     }
 };
+*/

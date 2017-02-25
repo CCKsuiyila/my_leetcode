@@ -1,3 +1,6 @@
+//这个是第一道leetcode题吧   那天和吴同学长 种奇龙学长一起值班的时候开始做的    瞬间想出归并排序还是可以的
+//其他的话  那天能想到类型转换导致一直不对多亏了寒假看的C++ primer
+// 52 ms       63.63%
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
