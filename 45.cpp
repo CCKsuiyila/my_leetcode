@@ -8,7 +8,9 @@
 //然后这次没在纸上写了,直接在低效版本上面改出来的,稍微花了点时间,也不多
 //不过发现   一旦改代码,总是没底   
 
-// 15 MS   43.60%
+//做Jump Game 后修改一些小细节
+
+// 13 MS   49.29%
 class Solution {
 public:
 	int numToEnd(vector<int>&nums,int index){
@@ -17,7 +19,7 @@ public:
 		int i=0,j=index+1;
 		for(;i<nums[index];++i,++j){
 			if(j==nums.size()-1){
-				return 0;
+				return 1;    //这里return 0 改成return 1  更好理解了
 			}
 			if(i+nums[j]>=compare){
 				store=j;
@@ -30,10 +32,11 @@ public:
 		if(nums.size()==1){
 			return 0;
 		}
+		/*
 		if(nums.size()==2){
 			return 1;
-		}
-        return 1+numToEnd(nums, 0);
+		}*/                          //这个不需要的
+        return numToEnd(nums, 0);    //上面改了这里就不需要+1了
     }
 };
 
